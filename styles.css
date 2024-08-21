@@ -1,0 +1,53 @@
+body {
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    background-color: aqua;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-con {
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;*/
+    background-color: blue;
+    width: 375px;
+    height: 500px;
+}
+
+.top-row {
+    display: flex;
+}
+
+.second-row {
+    display: flex;
+}
+
+.third-row {
+    display: flex;
+}
+
+.fourth-row {
+    display: flex;
+}
+
+.fifth-row {
+    display: flex;
+}
+
+button {
+    border: 1px solid white;
+    border-radius: 25%;
+    background-color: rgb(54, 61, 61);
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
