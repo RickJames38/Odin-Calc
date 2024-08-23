@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -47,4 +55,16 @@ button:hover {
   color: white;
   font-size: 2rem;
   padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.output .prev-op {
+  color: rgb(255, 255, 255, 0.75);
+  font-size: 1.5rem;
+}
+
+.output .current-op {
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
 }
